@@ -1,24 +1,40 @@
 <!doctype html>
 <html>
-<head>Min testsida</head>
-<meta charset="utf-8">
-<link href="styling.css" rel="stylsheet">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, intial-scale=1">
+		<title>Sofies testsida</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="styling.css" rel="stylesheet">
+	</head>	
 	<body>
-	<h1>Sofies testsida</h1>	
-		<p>Jag går på Tjejer kodar.</p>
-		<p>Här får jag lära mig följande:</p>
-			<ul>
-				<li>HTML</li>
-				<li>GitHub</li>
-				<li>CSS</li>
-			</ul>
-		<img src ="Sofie-bild.jpg" alt="Sofie" width="300">
-		<br>
-		<img src ="tk_logo.png" alt="Tjejer kodar" width="300">
-		<form>
-			Skicka en hälsning till Sofie: <input type = "text" name = "halsning" />
-			<br>
-			<input type="submit" name="Skicka">
-		</form>
+
+		<h1>Hello, world! Detta är Sofies testsida.</h1>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						Jag går på Tjejer kodar. Här får jag lära mig följande:
+						<ul>
+							<li>HTML</li>
+							<li>GitHub</li>
+							<li>CSS</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<img src ="Sofie-bild.jpg" alt="Sofie" width="300">
+						<br>
+						<img src ="tk_logo.png" alt="Tjejer kodar" width="300">
+					</div>
+					<div class="col-md-4">
+						<form>
+						Skicka en hälsning till Sofie: <input type = "text" name = "halsning" />
+						<br>
+						<input type="submit" value="Skicka till Sofie">
+						</form>
+					</div>
+					
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 	</body>
 </html>
