@@ -1,0 +1,12 @@
+body {
+	background: grey
+	font-family: Didot;
+	font-size: 12pt;
+}
+h1 {
+	color: pink;
+}
+p {
+	border-bottom: 2px dotted rgb(0,0,0)
+	padding-bottom: 20px;
+}
